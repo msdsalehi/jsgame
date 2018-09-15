@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <noscript>
+        Please enable the java script support in your browser!!!
+        </noscript>
+        <link rel="stylesheet" href="resources/css/jquery-ui-1.9.1.custom.min.css" type="text/css"/>
+        <script src="resources/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+        <script src="resources/js/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+        <script src="resources/js/jsgame.js" type="text/javascript"></script>
+        <script src="resources/js/util.js" type="text/javascript"></script>
+        <script src="resources/js/main.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="resources/css/main.css" type="text/css"/>
+        <title>Masoud Salehi Alamdari</title>
+    </head>
+    <body>
+        <div id="page">
+            <table id="headerTable" cellspacing="0" cellpading="0">
+                <tr cellspacing="0" cellpading="0">
+                    <td id="headerLeft"><img src="resources/images/header/left.jpg"/></td>
+                    <td><div id="headerCenter"></div></td>
+                    <td id="headerright"><img  src="resources/images/header/right.jpg"/></td>
+                </tr>
+            </table>
+
+            <div id="gameContainer"></div>
+
+            <div id="formDialog" title="Game Specifications : ">
+                <p id="errorPanel"></p>
+                <table>
+                    <tr>
+                        <td><label>Number of rows :</label></td>
+                        <td colspan="2"><input type="text" id="rowsField" class="form-input" value="4"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Number of columns :</label></td>
+                        <td colspan="2"><input type="text" id="columnsField" class="form-input" value="4"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Size of the images :</label> </td>
+                        <td><input type="text" id="pSizeField" class="form-input" style="width:75px;" value="100"/></td>
+                        <td><label>px</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Number of images :</label> </td>
+                        <td colspan="2"><input type="text" id="pNumberField" class="form-input" value="24"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="button" id="startButton" value="Start Playing..."/></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="eventDialog"></div>
+    </body>
+</html>
